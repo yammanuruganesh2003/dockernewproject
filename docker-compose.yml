@@ -3,7 +3,7 @@ services:
   movies:
     image: gani150/paymovies:latest
     ports:
-      - '81:80'
+      - '87:80'
     deploy:
       replicas: 2
 
