@@ -10,6 +10,6 @@ services:
   train:
      image: gani150/paytrain:latest
      ports:
-       - '82:80'
+       - '84:80'
      deploy:
        replicas: 3
